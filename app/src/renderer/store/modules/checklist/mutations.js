@@ -17,7 +17,7 @@ export default {
       if (states.event[i].id === obj.id) {
         states.event[i].type = 2;
         states.event[i].time = func.getDate();
-        var item = states.event[i];
+        let item = states.event[i];
         states.event.splice(i, 1);
         break;
       }
@@ -29,7 +29,7 @@ export default {
     for (let i = 0; i < states.event.length; i++) {
       if (states.event[i].id === obj.id) {
         states.event[i].type = 1;
-        var item = states.event[i];
+        let item = states.event[i];
         states.event.splice(i, 1);
         break;
       }
@@ -41,7 +41,7 @@ export default {
     for (let i = 0; i < states.event.length; i++) {
       if (states.event[i].id === obj.id) {
         states.event[i].type = 3;
-        var item = states.event[i];
+        let item = states.event[i];
         states.event.splice(i, 1);
         break;
       }

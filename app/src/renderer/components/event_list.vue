@@ -12,7 +12,6 @@
         </li>
       </ul>
     </div>
-
     <div class="event-tab" @click="changeCollapse(1,$event)">完成
             <span :class="{'close-span': !collapse[1].show}"></span>
     </div>
@@ -25,7 +24,6 @@
         </li>
       </ul>
     </div>
-
     <div class="event-tab" @click="changeCollapse(2,$event)">已忽略
             <span :class="{'close-span': !collapse[2].show}"></span>
     </div>
