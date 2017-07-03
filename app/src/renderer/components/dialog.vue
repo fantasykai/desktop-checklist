@@ -6,7 +6,6 @@
       </div>
       <div class="dialog-content">
         {{msg}}
-
       </div>
       <div class="dialog-btns">
         <button type="button" class="cancel-btn" @click="cancelEvent">取消</button>
